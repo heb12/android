@@ -1,0 +1,7 @@
+https://wiki.debian.org/AndroidTools
+https://packages.debian.org/sid/devel/google-android-ndk-installer
+
+sudo apt install libncurses-dev
+sudo apt-get install libncurses5:i386
+sudo apt-get install ia32-libs
+sudo apt-get install libncurses5 # fixed it
