@@ -23,7 +23,7 @@ android {
     buildToolsVersion '27.0.3'
 	externalNativeBuild {
         cmake {
-            path "src/main/cpp/CMakeLists.txt"
+            path "backend/CMakeLists.txt"
         }
     }
 }

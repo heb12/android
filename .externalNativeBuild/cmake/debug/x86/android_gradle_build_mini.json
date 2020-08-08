@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/usr/lib/android-sdk/cmake/3.10.2.4988404/android.toolchain.cmake",
+    "/home/daniel/Documents/heb12android/backend/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake --build /home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "backend-Debug-x86": {
+      "artifactName": "backend",
+      "buildCommand": "/usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake --build /home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/x86 --target backend",
+      "abi": "x86",
+      "output": "/home/daniel/Documents/heb12android/build/intermediates/cmake/debug/obj/x86/libbackend.so"
+    }
+  }
+}

@@ -95,13 +95,18 @@
 	// Current interchangable UI bindings
 	var bindings = {
 		getVerses: function(reference, callback) {
-			callback(b.getVerses(reference).split("<br>"));
+			callback(b.getVerses(reference).split("\n"));
 		}
 	}
 	</script>
 
 	<script>
 	window.onload = function() {
+		b.loadTranslation(
+			"/sdcard/heb12data/web.i",
+			"/sdcard/heb12data/web.t"
+		);
+
 		updateContent("Heb 12 1-10");
 	}
 

@@ -1,0 +1,18 @@
+Executable : /usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/daniel/Documents/heb12android/backend
+-B/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/mips64
+-DANDROID_ABI=mips64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/daniel/Documents/heb12android/build/intermediates/cmake/debug/obj/mips64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/usr/lib/android-ndk
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=mips64
+-DCMAKE_SYSTEM_VERSION=21
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/usr/lib/android-ndk
+-DCMAKE_TOOLCHAIN_FILE=/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/mips64/pre-ndk-r15-wrapper-android.toolchain.cmake
+-G Ninja
+jvmArgs : 
+

@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/x86_64",
+  "command": "/usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target x86_64-none-linux-android -gcc-toolchain /usr/lib/android-ndk/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-21/arch-x86_64 -Dbackend_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/backend.dir/fbrp/fbrp.c.o   -c /home/daniel/Documents/heb12android/backend/fbrp/fbrp.c",
+  "file": "/home/daniel/Documents/heb12android/backend/fbrp/fbrp.c"
+},
+
+{
+  "directory": "/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/x86_64",
+  "command": "/usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target x86_64-none-linux-android -gcc-toolchain /usr/lib/android-ndk/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-21/arch-x86_64 -Dbackend_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/backend.dir/main.c.o   -c /home/daniel/Documents/heb12android/backend/main.c",
+  "file": "/home/daniel/Documents/heb12android/backend/main.c"
+},
+
+{
+  "directory": "/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/x86_64",
+  "command": "/usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target x86_64-none-linux-android -gcc-toolchain /usr/lib/android-ndk/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-21/arch-x86_64 -Dbackend_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/backend.dir/biblec/biblec.c.o   -c /home/daniel/Documents/heb12android/backend/biblec/biblec.c",
+  "file": "/home/daniel/Documents/heb12android/backend/biblec/biblec.c"
+}
+]
