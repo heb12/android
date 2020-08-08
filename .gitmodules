@@ -1,0 +1,6 @@
+[submodule "backend/fbrp"]
+	path = backend/fbrp
+	url = https://code.heb12.com/heb12/fbrp
+[submodule "backend/biblec"]
+	path = backend/biblec
+	url = https://code.heb12.com/heb12/biblec
