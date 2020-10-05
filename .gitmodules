@@ -4,3 +4,6 @@
 [submodule "backend/biblec"]
 	path = backend/biblec
 	url = https://code.heb12.com/heb12/biblec
+[submodule "src/main/assets/ui"]
+	path = src/main/assets/ui
+	url = https://github.com/heb12/ui
