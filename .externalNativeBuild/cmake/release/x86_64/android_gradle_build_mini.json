@@ -1,17 +1,18 @@
 {
   "buildFiles": [
-    "/usr/lib/android-sdk/cmake/3.10.2.4988404/android.toolchain.cmake",
-    "/home/daniel/Documents/heb12android/backend/CMakeLists.txt"
+    "/usr/lib/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/usr/lib/android-sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/dan/Documents/heb12android/backend/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake --build /home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/x86_64 --target clean"
+    "/usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake --build /home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/x86_64 --target clean"
   ],
   "libraries": {
     "backend-Release-x86_64": {
       "artifactName": "backend",
-      "buildCommand": "/usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake --build /home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/x86_64 --target backend",
+      "buildCommand": "/usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake --build /home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/x86_64 --target backend",
       "abi": "x86_64",
-      "output": "/home/daniel/Documents/heb12android/build/intermediates/cmake/release/obj/x86_64/libbackend.so"
+      "output": "/home/dan/Documents/heb12android/build/intermediates/cmake/release/obj/x86_64/libbackend.so"
     }
   }
 }

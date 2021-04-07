@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__backend
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target x86_64-none-linux-android -gcc-toolchain /usr/lib/android-ndk/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-21/arch-x86_64 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -33,7 +33,7 @@ rule C_COMPILER__backend
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__backend
-  command = $PRE_LINK && /usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target x86_64-none-linux-android -gcc-toolchain /usr/lib/android-ndk/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-21/arch-x86_64 -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule C_SHARED_LIBRARY_LINKER__backend
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake -H/home/daniel/Documents/heb12android/backend -B/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/x86_64
+  command = /usr/lib/android-sdk/cmake/3.10.2.4988404/bin/cmake -H/home/dan/Documents/heb12android/backend -B/home/dan/Documents/heb12android/.externalNativeBuild/cmake/debug/x86_64
   description = Re-running CMake...
   generator = 1
 

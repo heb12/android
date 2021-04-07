@@ -1,19 +1,19 @@
 [
 {
-  "directory": "/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/armeabi-v7a",
-  "command": "/usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7-none-linux-androideabi -gcc-toolchain /usr/lib/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-9/arch-arm -Dbackend_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC   -o CMakeFiles/backend.dir/fbrp/fbrp.c.o   -c /home/daniel/Documents/heb12android/backend/fbrp/fbrp.c",
-  "file": "/home/daniel/Documents/heb12android/backend/fbrp/fbrp.c"
+  "directory": "/home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbackend_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/backend.dir/fbrp/fbrp.c.o   -c /home/dan/Documents/heb12android/backend/fbrp/fbrp.c",
+  "file": "/home/dan/Documents/heb12android/backend/fbrp/fbrp.c"
 },
 
 {
-  "directory": "/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/armeabi-v7a",
-  "command": "/usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7-none-linux-androideabi -gcc-toolchain /usr/lib/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-9/arch-arm -Dbackend_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC   -o CMakeFiles/backend.dir/main.c.o   -c /home/daniel/Documents/heb12android/backend/main.c",
-  "file": "/home/daniel/Documents/heb12android/backend/main.c"
+  "directory": "/home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbackend_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/backend.dir/main.c.o   -c /home/dan/Documents/heb12android/backend/main.c",
+  "file": "/home/dan/Documents/heb12android/backend/main.c"
 },
 
 {
-  "directory": "/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/armeabi-v7a",
-  "command": "/usr/lib/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7-none-linux-androideabi -gcc-toolchain /usr/lib/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-ndk/platforms/android-9/arch-arm -Dbackend_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC   -o CMakeFiles/backend.dir/biblec/biblec.c.o   -c /home/daniel/Documents/heb12android/backend/biblec/biblec.c",
-  "file": "/home/daniel/Documents/heb12android/backend/biblec/biblec.c"
+  "directory": "/home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/usr/lib/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbackend_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/backend.dir/biblec/biblec.c.o   -c /home/dan/Documents/heb12android/backend/biblec/biblec.c",
+  "file": "/home/dan/Documents/heb12android/backend/biblec/biblec.c"
 }
 ]
