@@ -1,5 +1,0 @@
-# ninja log v5
-0	46	1617767102	CMakeFiles/backend.dir/main.c.o	e012b769ef099cb4
-0	54	1617767102	CMakeFiles/backend.dir/fbrp/fbrp.c.o	42b8c8ddd7feba33
-1	55	1617767102	CMakeFiles/backend.dir/biblec/biblec.c.o	3587d6764c3ed503
-55	68	1617767102	/home/dan/Documents/heb12android/build/intermediates/cmake/release/obj/armeabi-v7a/libbackend.so	391bc30c24d8dc7d

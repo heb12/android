@@ -4,8 +4,17 @@ Here's some help in case you get stuck trying to build it.
 https://wiki.debian.org/AndroidTools
 https://packages.debian.org/sid/devel/google-android-ndk-installer
 
-sudo apt-get install ia32-libs
-sudo apt-get install libncurses5
+Initial setup:
+sudo apt install android-sdk android-sdk-platform-23 
+sudo apt install google-android-ndk-installer
+sudo apt install openjdk-8-jdk # (?)
+
+# (?)
+sudo apt install ia32-libs
+sudo apt install libncurses5
+sudo apt install ninja-build cmake
+
+accepting sdk license:
+https://wiki.debian.org/AndroidTools/IntroBuildingApps
 
 `gradle build` may need to be run as sudo.
-

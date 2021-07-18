@@ -1,3 +1,0 @@
-/home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
-/home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
-/home/dan/Documents/heb12android/.externalNativeBuild/cmake/release/x86/CMakeFiles/backend.dir

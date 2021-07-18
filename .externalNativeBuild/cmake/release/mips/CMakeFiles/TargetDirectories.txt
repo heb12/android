@@ -1,3 +1,0 @@
-/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
-/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
-/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/release/mips/CMakeFiles/backend.dir

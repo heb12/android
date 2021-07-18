@@ -1,3 +1,0 @@
-/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
-/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
-/home/daniel/Documents/heb12android/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/backend.dir

@@ -24,6 +24,7 @@ android {
 	externalNativeBuild {
         cmake {
             path "backend/CMakeLists.txt"
+            version "3.16.3"
         }
     }
 }
