@@ -1,9 +1,9 @@
-[submodule "backend/fbrp"]
-	path = backend/fbrp
-	url = https://code.heb12.com/heb12/fbrp
 [submodule "backend/biblec"]
 	path = backend/biblec
 	url = https://code.heb12.com/heb12/biblec
 [submodule "src/main/assets/ui"]
 	path = src/main/assets/ui
 	url = https://github.com/heb12/ui
+[submodule "backend/haplous"]
+	path = backend/haplous
+	url = https://code.heb12.com/heb12/haplous

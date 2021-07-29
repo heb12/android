@@ -6,6 +6,14 @@ gflag += --info
 all:
 	export ANDROID_HOME=/usr/lib/android-sdk; sudo gradle build $(gflag)
 
+adb:
+	adb uninstall com.heb12.android
+	adb install build/outputs/apk/debug/android-debug.apk
+	adb shell monkey -p 'com.heb12.android' -v 1
+
+clean:
+	rm -rf .externalNativeBuild .gradle build
+
 setup:
 	touch local.properties
 	echo 'sdk.dir=/usr/lib/android-sdk/' > local.properties

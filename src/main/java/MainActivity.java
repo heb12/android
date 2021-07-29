@@ -15,14 +15,14 @@ public class MainActivity extends Activity {
 	public native String cloadTranslation(String indexLocation, String textLocation);
 	public native String[] cgetVerses(String ref);
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
 		// Don't want the ugly top bar
-    	requestWindowFeature(Window.FEATURE_NO_TITLE);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-        super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);
 
-        WebView webview = new WebView(this);
+		WebView webview = new WebView(this);
 		webview.setWebContentsDebuggingEnabled(true);
 
 		WebSettings settings = webview.getSettings();
@@ -31,13 +31,13 @@ public class MainActivity extends Activity {
 		settings.setDomStorageEnabled(true);
 		settings.setLoadWithOverviewMode(true);
 
-		webview.loadUrl("file:///android_asset/index.html");
+		webview.loadUrl("file:///android_asset/ui/output.html");
 		webview.addJavascriptInterface(new backend(), "b");
 
-        setContentView(webview);
+		setContentView(webview);
 
 		// Load web translation
-    }
+	}
 
 	public class backend {
 		@JavascriptInterface
